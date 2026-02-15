@@ -1,0 +1,41 @@
+import { FoodItem } from '../types';
+
+export const sortirFoods: FoodItem[] = [
+  { id: 1, name: 'Nasi Goreng Segar', emoji: '🍛', safe: true, reason: 'Makanan dimasak dengan baik dan disajikan segar.' },
+  { id: 2, name: 'Buah Apel Segar', emoji: '🍎', safe: true, reason: 'Buah segar mengandung vitamin dan mineral penting.' },
+  { id: 3, name: 'Susu Pasteurisasi', emoji: '🥛', safe: true, reason: 'Susu telah melalui proses pasteurisasi untuk membunuh bakteri.' },
+  { id: 4, name: 'Makanan Berjamur', emoji: '🍞', safe: false, reason: 'Jamur pada makanan menghasilkan mikotoksin yang berbahaya!' },
+  { id: 5, name: 'Ikan Segar', emoji: '🐟', safe: true, reason: 'Ikan segar kaya protein dan omega-3.' },
+  { id: 6, name: 'Makanan Kadaluarsa', emoji: '🥫', safe: false, reason: 'Makanan kadaluarsa bisa mengandung bakteri berbahaya!' },
+  { id: 7, name: 'Sayur Organik', emoji: '🥦', safe: true, reason: 'Sayur organik minim residu pestisida.' },
+  { id: 8, name: 'Jajanan Tanpa Label', emoji: '🍬', safe: false, reason: 'Makanan tanpa label tidak terjamin keamanannya!' },
+  { id: 9, name: 'Telur Matang', emoji: '🥚', safe: true, reason: 'Telur yang dimasak matang aman dari Salmonella.' },
+  { id: 10, name: 'Daging Mentah Bau', emoji: '🥩', safe: false, reason: 'Daging berbau menandakan kontaminasi bakteri!' },
+  { id: 11, name: 'Air Mineral Kemasan', emoji: '💧', safe: true, reason: 'Air mineral kemasan terdaftar BPOM aman dikonsumsi.' },
+  { id: 12, name: 'Minuman Warna Mencolok', emoji: '🧃', safe: false, reason: 'Pewarna berlebihan bisa berbahaya bagi kesehatan!' },
+  { id: 13, name: 'Tempe Segar', emoji: '🫘', safe: true, reason: 'Tempe adalah sumber protein nabati yang sehat.' },
+  { id: 14, name: 'Makanan Lalat Hinggap', emoji: '🪰', safe: false, reason: 'Lalat membawa bakteri penyebab penyakit!' },
+  { id: 15, name: 'Roti Gandum', emoji: '🍞', safe: true, reason: 'Roti gandum utuh kaya serat dan nutrisi.' },
+  { id: 16, name: 'Sosis Berubah Warna', emoji: '🌭', safe: false, reason: 'Perubahan warna pada sosis menandakan kerusakan!' },
+  { id: 17, name: 'Yogurt Segar', emoji: '🥣', safe: true, reason: 'Yogurt mengandung probiotik baik untuk pencernaan.' },
+  { id: 18, name: 'Minyak Goreng Hitam', emoji: '🫗', safe: false, reason: 'Minyak goreng bekas berulang mengandung karsinogen!' },
+];
+
+export const catchFoods = [
+  { name: 'Apel', emoji: '🍎', safe: true },
+  { name: 'Pisang', emoji: '🍌', safe: true },
+  { name: 'Brokoli', emoji: '🥦', safe: true },
+  { name: 'Wortel', emoji: '🥕', safe: true },
+  { name: 'Ikan', emoji: '🐟', safe: true },
+  { name: 'Susu', emoji: '🥛', safe: true },
+  { name: 'Telur', emoji: '🥚', safe: true },
+  { name: 'Nasi', emoji: '🍚', safe: true },
+  { name: 'Tempe', emoji: '🫘', safe: true },
+  { name: 'Jeruk', emoji: '🍊', safe: true },
+  { name: 'Makanan Busuk', emoji: '🦠', safe: false },
+  { name: 'Jajanan Ilegal', emoji: '⚠️', safe: false },
+  { name: 'Racun', emoji: '☠️', safe: false },
+  { name: 'Berjamur', emoji: '🍄', safe: false },
+  { name: 'Kadaluarsa', emoji: '💀', safe: false },
+  { name: 'Tanpa Izin', emoji: '🚫', safe: false },
+];
