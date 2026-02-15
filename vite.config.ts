@@ -10,6 +10,9 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // PENTING: Tambahkan baris ini agar aset terbaca di GitHub Pages
+  base: "/ide-kuis-games/", 
+  
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
