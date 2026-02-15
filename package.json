@@ -3,10 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  // Tambahkan baris ini
+  "homepage": "https://bintangrumirisc.github.io/ide-kuis-games/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    // Tambahkan 2 baris ini
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "2.1.1",
@@ -20,6 +25,8 @@
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.1.1",
+    // Pastikan gh-pages terinstall (lihat langkah 3)
+    "gh-pages": "^6.1.1", 
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
     "vite": "7.2.4",
